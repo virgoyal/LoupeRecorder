@@ -134,7 +134,7 @@ The power system is designed to be entirely belt-mounted, avoiding any additiona
 
 
 
-![Battery Holder Back](images/backbatterywscale.png)
+![Battery Holder Back](images/backbbatterywscale.png)
 ![Battery Holder Front](images/frontbatterywscale.png)
 ![Fan Mount](images/fanmountwscale.png)
 
