@@ -133,7 +133,8 @@ The power system is designed to be entirely belt-mounted, avoiding any additiona
     * Ventilation channels for cooling
 
 
-
+![Camera Mount Back](images/back.png)
+![Camera Mount Front](images/front.png)
 ![Battery Holder Back](images/backbbatterywscale.png)
 ![Battery Holder Front](images/frontbatterywscale.png)
 ![Fan Mount](images/fanmountwscale.png)
