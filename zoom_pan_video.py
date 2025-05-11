@@ -39,7 +39,7 @@ def main():
     offset_x = (width - crop_size) // 2
     offset_y = (height - crop_size) // 2
 
-    # Define pan step (adjust as needed)
+    # Define pan step
     pan_step = max(1, crop_size // 20)
 
     # Set up arrow key codes based on the operating system.
@@ -68,12 +68,11 @@ def main():
 
     # Main loop to continuously read frames and loop the video
     while True:
-        # If we've reached the end, loop the video back to the start.
         if not ret:
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
             ret, frame = cap.read()
             if not ret:
-                break  # Something went wrong; exit the loop
+                break 
 
         # Ensure cropping offsets remain within frame boundaries
         offset_x = max(0, min(offset_x, width - crop_size))
