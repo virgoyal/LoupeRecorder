@@ -90,6 +90,9 @@ The ESP-NOW protocol was selected for its reliability in electromagnetically noi
 
 
 ![PCB with switch](images/IMG_4480.jpeg)
+![PCB without switch](images/woswitch.jpeg)
+![PCB with leads soldered switch](images/IMG_5007.jpeg)
+
 
 ### 3.4 Video Transmission
 * **Video Transmitter**: TBS Unify Pro 5G8 V3 (RP-SMA)
@@ -131,11 +134,15 @@ The power system is designed to be entirely belt-mounted, avoiding any additiona
 
 
 
-**[STL FILES TO BE ADDED: CAD renderings of all 3D-printed components]**
+![Battery Holder Back](images/backbatterywscale.png)
+![Battery Holder Front](images/frontbatterywscale.png)
+![Fan Mount](images/fanmountwscale.png)
+
+
 
 ## 4 Circuit Design
 
-**[CiRCUIT PHOTO]**
+![Circuit](images/modlab_circuit.png)
 The circuit design consists of two main sections:
 1. **Remote Control Circuit**: ESP32 C3 SuperMini with tactile buttons and pull-up resistors
 2. **Camera Control & Video Transmission Circuit**: ESP32 C3 SuperMini connected to CD4066 IC, which interfaces with the RunCam Split 4 camera and TBS Unify Pro video transmitter
