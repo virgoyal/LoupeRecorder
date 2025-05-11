@@ -89,7 +89,7 @@ The ESP-NOW protocol was selected for its reliability in electromagnetically noi
 - Current status: Successfully removed the switch, but connection to the exposed pads remains a challenge
 
 
-**[PHOTOS TO BE ADDED: RunCam PCB with original switch and after switch removal]**
+![PCB with switch](images/IMG_4480.jpeg)
 
 ### 3.4 Video Transmission
 * **Video Transmitter**: TBS Unify Pro 5G8 V3 (RP-SMA)
